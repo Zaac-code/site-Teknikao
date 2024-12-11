@@ -1,0 +1,87 @@
+.buttonPack{
+    display: flex;
+    padding-right: 20px;
+    gap: 10px;
+}
+
+.contactButton{
+    display: flex;
+    align-items: center;
+}
+
+.contactButton button{
+    color: white;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    gap:3px;
+    padding-right: 5px;
+    font-size: 12pt;
+}
+
+.contact{
+    padding-top: 2px;
+    text-decoration: none;
+    font-size:9pt;
+}
+
+.contactButton button:hover{
+    transition: 0.5s;
+    scale: 1.1;
+    opacity: 0.5;
+}
+
+.languageButton button{
+    color: white;
+    margin-top: 5px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer; 
+    font-size: 12pt;
+}
+
+
+.languageButton button:hover{
+    transition: 0.5s;
+    scale: 1.2;
+    opacity: 0.5;    
+}
+
+.searchBar{
+    width: 15vw;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color:rgb(0, 0, 0) ;
+    opacity: 0.6;
+}
+
+.searchBar input{
+    color: aliceblue;
+    width:80%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+}
+
+.searchBar input::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+.searchBar button{
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.searchBar button:hover{
+    scale: 1.1;
+}
