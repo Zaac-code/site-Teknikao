@@ -10,7 +10,6 @@ const Header = () => {
   return (
     <div className='menu'>
         <div className='backgroundT'></div>
-
         <div className='opacityImage'></div>
 
         <nav>

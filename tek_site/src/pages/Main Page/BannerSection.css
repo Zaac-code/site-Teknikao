@@ -3,39 +3,41 @@
 *{
     padding: 0;
     margin: 0;
-    
 }
 
 .BannerMain{
-    width: 100vw;
-    height: 70vh;
+   
+    width:100%;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 
 .mainText{
+ 
     align-items: center;
     justify-content: flex-start;
-    width: 30%;
+    width:350px;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
 }
 
 .mainText h1{
     font-weight: 500;
-    margin-left: 20px;
-    color:aliceblue;
+    margin-left:20px;
+    color:white;
     font-size: 45pt;
     font-family:"Quicksand";
     letter-spacing:normal;
     line-height:60px;
 }
 .mainText p{
-    margin-top: 40px;
+    margin-top: 30px;
     font-weight: 500;
     margin-left: 20px;
-    color:aliceblue;
+    color:white;
     font-size: 10pt;
     font-family:"Quicksand";
     letter-spacing:normal;

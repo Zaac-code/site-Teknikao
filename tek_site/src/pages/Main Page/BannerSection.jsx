@@ -6,7 +6,7 @@ const BannerSection = () => {
     <div className='BannerMain'>
       <div className='mainText'>
         <h1>Ánalise de vibrações e balancemento</h1>
-        <p>Mude agora a maneira que você faz manutenção preditiva</p>
+        <p>Transformando a maneira que você faz manutenção preditiva</p>
       </div>
     </div>
   )

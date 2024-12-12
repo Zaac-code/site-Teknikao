@@ -1,0 +1,32 @@
+.imageCard{
+    border-radius: 80%;
+    background-color: #318BA1;
+    display: flex;
+    width:60%;
+    height:40%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.imageCard img{
+    width:80%;
+    height:80%;
+}
+
+#img2{
+    margin-top: 10px;
+}
+
+#img3{
+    margin-top: 10px;
+}
+
+#img4{
+    margin-top: 10px;
+}
+
+#img5{
+    margin-top: 10px;
+    margin-left: 5px;
+}

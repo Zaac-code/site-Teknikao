@@ -1,6 +1,7 @@
 import './App.css'
-import BannerSection from './components/First Page/BannerSection'
-import Header from './components/Header/Header'
+import BannerSection from './pages/Main Page/BannerSection'
+import Header from './pages/Header/Header'
+import Services from './pages/Services section/Services'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header/>
       <BannerSection/>
+      <Services />
     </>
   )
 }
