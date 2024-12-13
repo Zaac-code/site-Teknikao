@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.carouselBody{
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    font-family:"Quicksand",sans-serif;
+    margin:0;
+    padding: 0;
+    background-color: #F1F5F9;
+}
+
+.swiper-slide.swiper-slide-active{
+    margin-bottom:100px;
+}
+
+.carouselBody h1{
+    text-align: center;
+    font-family:"Quicksand";
+    font-size: 20pt;
+    color: #318BA1;
+}
+.carouselBody h2{
+    text-align: center;
+    font-family:"Quicksand";
+    font-size: 15pt;
+    color: black;
+    margin-bottom:0;
+}
+
+.Cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width:77%;
+    height:90%;
+    border-radius: 15px;
+
+}
+
+.slidePage{
+    padding-top:15vh;
+    padding-left: 50px;
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-content{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 80%;
+    border-bottom-right-radius: 80%;
+    background-color: #318BA1;
+}
+.text-content h1{
+    text-align: center;
+    font-family:"Quicksand";
+    font-size: 20pt;
+    color: white;
+}
+
+.text-content p{
+    text-align: center;
+    margin-bottom:5vh;
+    font-family:"Quicksand";
+    font-size: 12pt;
+    color: white;
+}
+
+.imgSlide1{
+    width: 38%;
+    height: 100%;
+}
+
+.imgSlide1:hover{
+    transition: 0.5s;
+    filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.24));
+}
+
+.imgSlide2{
+    width: 39%;
+    height: 100%;
+}
+.imgSlide2:hover{
+    transition: 0.5s;
+    filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.24));
+}
+
+
+.imgSlide3{
+    width: 40%;
+    height: 100%;
+}
+.imgSlide3:hover{
+    transition: 0.5s;
+    filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.24));
+}
+
+
+
