@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-primary: 'Quicksand', sans-serif;
+    --background-color: #1E293B;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --text-large: 20pt;
+    --text-medium: 15pt;
+    --text-small: 12pt;
+    --text-smaller: 9pt;
+}
+
+.videosBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 5vh;
+    background-color:var(--background-color);
+}
+
+.videosBody h1,h2{
+    font-family: var(--font-primary);
+    color: var(--color-white);
+}
+.videosBody h1{
+    margin-top: 5vh;
+    font-size: var(--text-large);
+}
+.videosBody h2{
+    font-size: var(--text-small);
+}
+
+main{
+    margin-top: 5vh;
+    display: flex;
+}
+
+.main-content{
+    
+    width: 70vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.videos-content{
+    display: flex;
+    width: 98%;
+    height: 32%;
+    background-color: #354358;
+    /* background-color: #6D798B; */
+    align-items:flex-start;
+    justify-content: space-between;
+}
+
+.videos-content h1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    color: var(--color-white);
+    font-size: var(--text-small);
+}
+
+.videos-content p{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5vh;
+    width: 30%;
+    color: var(--color-white);
+    font-size: var(--text-smaller);
+}
+
+.video-content{
+    position: relative;
+    margin-top: 3vh;
+    margin-left: 2vw;
+    width: 19.9%;
+    height: 70%;
+    background-color: var(--background-color);
+}
+
+.video-content iframe {
+    position: absolute;
+    width:100%;
+    height:100%;
+    border: none;
+    scale:0.94;
+}
+
