@@ -1,53 +1,43 @@
+
+:root {
+    --font-primary: Arial, Helvetica, sans-serif;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --text-h1: 3rem;
+    --text-h2: 1.5rem;
+    --text-small: 1rem;
+    --transition-time: 0.5s;
+    --scale:1.2;
+    --opacity:0.5;
+}
 body,html{
     font-family: var(--font-primary);
     padding: 0;
     margin: 0;
 }
 
-:root {
-    --font-primary: Arial, Helvetica, sans-serif;
-    --color-white: #FFFFFF;
-    --color-black: #000000;
-    --text-h1: 20pt;
-    --text-h2: 15pt;
-    --text-small: 12pt;
-    --transition-time: 0.5s;
-    --scale:1.2;
-    --opacity:0.5;
-}
-
 .buttonPack{
-    display: flex;
-    padding-right: 20px;
-    gap: 10px;
-}
-
-.contactButton{
+    width:20vw ;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    padding-right: 20px;
 }
 
+
 .contactButton button{
+    display: flex;
     color: var(--color-white);
     outline: none;
     border: none;
     background-color: transparent;
-    cursor: pointer;
-    display: flex;
-    gap:3px;
-    padding-right: 5px;
-    font-size: var(--text-small);
-}
-
-.contact{
-    padding-top: 2px;
-    text-decoration: none;
-    font-size:9pt;
+    cursor: pointer; 
+    font-size:2.5em;
 }
 
 .languageButton button:hover,
 .contactButton button:hover{
-    transition: var(--transition-time);
+    transition: var(--transition-time) ease;
     scale: var(--scale);
     opacity:var(--opacity);
 }
@@ -59,18 +49,22 @@ body,html{
     border: none;
     background-color: transparent;
     cursor: pointer; 
-    font-size: var(--text-small);
+    font-size: var(--text-h2);
 }
 
 .searchBar{
-    width: 15vw;
+    width: 12vw;
+    height: 5vh;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    background-color: var(--color-black);
-    opacity: var(--opacity);
+    background-color:rgba(0, 0, 0, 0.607);
+}
+.searchBar:hover{
+    outline:1.5px solid white;
+
 }
 
 .searchBar input{
@@ -79,18 +73,22 @@ body,html{
     background-color: transparent;
     border: none;
     outline: none;
+    font-size: var(--text-small);
+    padding-right: 5px;
 }
 .searchBar input::placeholder{
     color: var(--color-white);
 }
 
 .searchBar button{
-    color: var(--color-white);
+    color:white;
     border: none;
     outline: none;
     background-color: transparent;
     cursor: pointer;
+    font-size: var(--text-small);
 }
 .searchBar button:hover{
-    scale: 1.1;
+    transition:0.3 ease;
+    scale: 1.2;
 }

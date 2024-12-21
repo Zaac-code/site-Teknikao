@@ -1,20 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-
 body, html{
     margin: 0;
     padding: 0;
 }
 
 :root {
-    --font-primary: 'Quicksand', sans-serif;
     --background-color: #1E293B;
-    --color-white: #FFFFFF;
-    --color-black: #000000;
-    --text-large: 20pt;
-    --text-medium: 15pt;
-    --text-small: 12pt;
-    --text-smaller: 9pt;
+    --text-large: 3rem;
+    --text-medium:1.5rem;
+    --text-small: 1rem;
+    --text-smaller: 0.85rem;
 }
 
 .videosBody{
@@ -46,7 +40,6 @@ main{
 }
 
 .main-content{
-    
     width: 70vw;
     height: 75vh;
     display: flex;
@@ -60,7 +53,6 @@ main{
     width: 98%;
     height: 32%;
     background-color: #354358;
-    /* background-color: #6D798B; */
     align-items:flex-start;
     justify-content: space-between;
 }
@@ -74,12 +66,14 @@ main{
 }
 
 .videos-content p{
+    text-align: left;
     display: flex;
     flex-wrap: wrap;
     margin: 5vh;
     width: 30%;
     color: var(--color-white);
     font-size: var(--text-smaller);
+    font-weight: 500;
 }
 
 .video-content{
@@ -98,4 +92,5 @@ main{
     border: none;
     scale:0.94;
 }
+
 

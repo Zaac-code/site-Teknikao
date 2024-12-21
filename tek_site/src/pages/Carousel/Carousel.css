@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
 /* Variáveis */
 :root {
-    --font-primary: 'Quicksand', sans-serif;
-    --color-primary: #318BA1;
-    --color-secondary: #F1F5F9;
+    --font-primary: 'Open Sans', sans-serif;
+    --color-primary: #326789;
     --color-white: #FFFFFF;
     --color-black: #000000;
-    --text-h1: 20pt;
-    --text-h2: 15pt;
-    --text-p: 12pt;
+    --text-h1: 3rem;
+    --text-h2: 1.5rem;
+    --text-p: 1rem;
     --transition-time: 0.5s;
     --box-shadow-hover: 0px 3px 8px rgba(0, 0, 0, 0.24);
 }
@@ -22,7 +20,7 @@ body, html{
 
 .carouselBody{
     width:100%;
-    height:100vh;
+    height:80%;
     display: flex;
     padding: 5vh 0;
     flex-direction: column;
@@ -37,16 +35,22 @@ body, html{
     text-align: center;
     font-size:var(--text-h2);
     color: var(--color-primary);
-    
 }
 .carouselBody h2{
     text-align: center;
     font-size: var(--text-h1);
     color:var(--color-black);
-    font-weight: bolder;
-    line-height:1em;
-    
+    font-weight:600;
+    line-height:1em;   
 }
+
+.carouselBody h2:hover,
+.carouselBody h1:hover,
+.carouselBody p:hover{
+    cursor:default;
+}
+
+
 
 .swiper-slide.swiper-slide-active{
     margin-bottom:100px;
@@ -122,6 +126,12 @@ main{
     transition: 0.5s;
     filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.24));
 }
+
+
+
+
+
+
 
 
 

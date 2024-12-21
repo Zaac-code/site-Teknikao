@@ -2,6 +2,7 @@ import React from 'react'
 import { FaSearch } from "react-icons/fa";
 import { AiOutlineGlobal } from "react-icons/ai";
 import { GrContactInfo } from "react-icons/gr";
+import { IoMdContact } from "react-icons/io";
 import { AiOutlineTrademark } from "react-icons/ai";
 import './Menu.css'
 import './Buttons.css'
@@ -9,9 +10,6 @@ import './Buttons.css'
 const Header = () => {
   return (
     <div className='menu'>
-        <div className='backgroundT'></div>
-        <div className='opacityImage'></div>
-
         <nav>
             <ul className='menuItems'>
                 <a href=""><li>Produtos</li></a>
@@ -29,7 +27,7 @@ const Header = () => {
 
         <div className='buttonPack'>
             <div className='contactButton'>
-                <button><GrContactInfo/> <p className='contact'>Contato</p> </button>
+                <button> <IoMdContact/></button>
             </div>
 
             <div className='languageButton'>

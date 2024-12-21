@@ -1,7 +1,8 @@
 .imageCard{
     border-radius: 80%;
-    background-color: #318BA1;
+    background-color: #326789;
     display: flex;
+    flex-wrap: wrap;
     width:60%;
     height:40%;
     align-items: center;

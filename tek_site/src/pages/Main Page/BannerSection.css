@@ -1,29 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-html,body{
+/* Variáveis */
+:root {
+    --font-primary: 'Open Sans', sans-serif;
+    --color-primary: #326789;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --text-larger: 6rem;
+    --text-medium: 1.5rem;
+    --text-p: 1rem;
+    --transition-time: 0.5s;
+    --box-shadow-hover: 0px 3px 8px rgba(0, 0, 0, 0.24);
+}
+*{
     padding: 0;
     margin: 0;
 }
 
-:root {
-    --font-primary: 'Quicksand', sans-serif;
-    --color-white: #FFFFFF;
-    --color-black: #000000;
-
-}
-
 .BannerMain{
     width:100%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 
+.backgroundT{
+    background-image: url("C:\Users\Zaac\OneDrive\Área de Trabalho\teknikao\Site\site-Teknikao\tek_site\src\assets\imagens site\industria-5.0.png");
+    width: 100%;
+    height:100vh;
+    position: absolute;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.opacityImage{
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+} 
+
 .mainText{
     align-items: center;
     justify-content: flex-start;
-    width:350px;
+    width:50%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -31,20 +59,26 @@ html,body{
 
 .mainText h1{
     font-weight: 500;
-    margin-left:20px;
+    margin-left:40px;
     color:var(--color-white);
-    font-size: 45pt;
+    font-size:var(--text-larger);
     font-family:var(--font-primary);
     letter-spacing:normal;
-    line-height:60px;
+    line-height:1em;
 }
 .mainText p{
+    text-align:left;
     margin-top: 30px;
     font-weight: 500;
-    margin-left: 20px;
+    margin-left: 50px;
     color:var(--color-white);
-    font-size:10pt;
+    font-size:var(--text-medium);
     font-family:var(--font-primary);
     letter-spacing:normal;
     line-height:normal;
+}
+
+.mainText h1:hover,
+.mainText p:hover{
+    cursor: default;
 }
